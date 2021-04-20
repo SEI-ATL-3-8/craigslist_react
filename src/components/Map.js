@@ -1,4 +1,4 @@
-const Card = (props) => {
+const Map = (props) => {
     return(
         <div>
             <img className="pics" src={(`${props.image}`)}></img>
@@ -12,4 +12,4 @@ const Card = (props) => {
     )
 }
 
-export default Card
+export default Map

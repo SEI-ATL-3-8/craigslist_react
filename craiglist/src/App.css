@@ -1,49 +1,53 @@
-.cardContainer{
-  display: flex;
-  border: 2px solid grey;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+* {
   box-sizing: border-box;
-  height: 450px;
-  width: 600px;
-  background-color: white;
-  border-radius: 3%;
-  margin: 15px;
+  margin: 0;
 }
-img{
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  border: 1px solid #000000;
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  grid-template-columns: 400px 400px 400px;
+  grid-gap: 20px;
+}
+
+.listing {
+  border: 1px solid #663399;
+  height: 400px;
   width: 400px;
- max-height: 300px;
-}
-.price{
-text-align: left;
-border: 2px solid grey;
-position:relative;
-background-color: white;
-}
-.link{
- font-size: x-large;
- font-weight: 500;
-}
-.bottomSec{
-  margin: 10px;
-}
-a{
-  margin: 5px;;
-}
-.posted{
-  color: grey;
-  margin-right: 25px;
+  margin-left: 100px;
 }
 
-.top{
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.listing, .price {
+  border: 1px solid #808080;
 }
 
-.bottom{
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.title {
+  color: #0000ff;
+  font-size: 18px;
+}
+
+.date {
+  border: 1px solid #808080;
+  margin-left: 10px;
+}
+
+.bedroom {
+  margin-left: 10px;
+}
+
+.location {
+  margin-left: 10px;
+}
+
+.photo {
+  height: 200px;
+  width: 200px;
 }

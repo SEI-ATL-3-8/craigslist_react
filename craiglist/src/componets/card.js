@@ -1,18 +1,20 @@
-const Card = (props) =>{
+import React from 'react'
 
-    return(
-        <div className = "cardContainer">
-                <a className = "price">{props.price}</a>
-                <img src = {props.image}/>
-                <div className = "bottomSec">
-                <a className = "posted">{props.postedOn}</a>
-                <a className = "link" href={props.linkTo}>{props.title}</a>
-                <a className = "price">{props.price}</a>
-                <a>{props.beds}</a>
-                <a>{props.location}</a>
-                </div>
+
+const Card = (props) => {
+    return (
+        <div className="listing">
+            <img className="photo" src={props.image}></img>
+           <span className="price">{props.price}</span>
+           <h1 className="title">{props.title}</h1>
+           <a href="https://imgur.com/gallery/UpzZDoW">{props.linkTo}</a>
+           <span className="date">{props.postedOn}</span>
+           <span className="amount">{props.price}</span>
+           <span className="bedroom">{props.beds}</span>
+           <span className="square-footage">{props.sqft}</span>
+           <span className="location">{props.location}</span>
+           
         </div>
-
     )
 }
 

@@ -55,4 +55,4 @@ const data = [
     location: "Beacon Hill",
   },
 ]
-export default data
+export default data 

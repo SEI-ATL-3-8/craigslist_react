@@ -1,0 +1,72 @@
+* {
+  font-family: 'Arial'
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.App {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 1000px;
+}
+
+.card-box {
+  width: 280px;
+  height: 280px;
+  border-radius: 5px;
+  border: 1px solid rgb(200, 200, 200);
+  box-shadow: 0 0 10px rgb(200, 200, 200);
+  margin: 10px;
+  position: relative;
+  text-align: center;
+}
+
+.card-price {
+  font-size: 0.8em;
+  border: 1px solid rgb(200, 200, 200);
+  border-top-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding: 0 1px 0 1px;
+  width: 42px;
+  background-color: white;
+}
+
+.card-image {
+  object-fit: contain;
+  width: 100%;
+  height: 70%;
+  
+}
+
+.card-footer {
+  height: 20%;
+  font-size: 0.8em;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  text-align: left;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.footer-link {
+  font-family: 'Times New Roman';
+  font-size: 1.2em;
+}
+
+.footer-price {
+  border: 1px solid rgb(200, 200, 200);
+  width: 38px;
+  padding: 0 2px 0 2px;
+  border-radius: 5px;
+}
+
+.footer-date {
+  font-size: 0.8em;
+  color: rgb(110, 110, 110)
+}

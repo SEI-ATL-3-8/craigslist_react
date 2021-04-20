@@ -1,14 +1,25 @@
-import Card from './Cards';
 import './App.css';
-import React, { useState } from 'react';
-import data from'./data.js'
+import Card from './components/Card'
+import data from './data'
+
 
 function App() {
-  const [cards, setCards] = useState(data);
+
   return (
     <>
-    <div class='cards_container'>
-    <Card cards={cards}/>
+    <div class='App'>
+      {data.map((item, i) => (
+         <Card key = {i}
+          price =  {post.price}
+          title =  {post.title}
+          linkTo =  {post.linkTo}
+          image =  {post.image}
+          postedOn =  {post.postedOn}
+          beds =  {post.beds}
+          location =  {post.location}
+         />
+
+      ))}
     </div>
     </>
   );

@@ -1,50 +1,41 @@
+.pics{
+  height:270px;
+  width: 65%;
+  margin-left: 50px;
+}
 
 .cardContainer{
+  width: 1000px;
+  margin: 45px auto;
   display: flex;
-  border: 2px solid grey;
+  flex-wrap: wrap;
+}
+
+.card{
+  width: 300px;
+  height: 330px;
+  display:flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  box-sizing: border-box;
-  height: 450px;
-  width: 600px;
   background-color: white;
-  border-radius: 3%;
-  margin: 15px;
-}
-.pricing{
-text-align: left;
-border: 2px solid grey;
-position:relative;
-background-color: white;
-}
-img{
-  width: 400px;
- max-height: 300px;
-}
-.bottom{
-  margin: 15px;
-}
-.link{
- font-size: x-large;
- font-weight: 500;
-}
-a{
-  margin: 5px 10px;;
+  border: 2px solid grey;
+  border-radius: 3px;
+  margin: 10px 10px 5px 10px;
 }
 
-.top{
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.card p {
+  width: fit-content;
+  border-radius: 5px;
+  position: absolute;
+  border: 2px solid grey;
+  margin: 0;
 }
-.post{
-  color: black;
-  margin-right: 15px;
+.price{
+  border: 1px solid grey;
+  border-radius: 3px;
+  width: fit-content;
+  margin:0;
 }
-
-.bottomSpace{
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.date{
+  font-size: small;
+  color: white;
 }

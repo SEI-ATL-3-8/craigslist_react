@@ -1,0 +1,43 @@
+.cardContainer{
+  display:flex;
+  flex-wrap: wrap;
+  width: 1000px;
+  margin: 30px auto;
+}
+
+.card{
+  display:flex;
+  flex-direction: column;
+  background-color: white;
+  border: 1px solid grey;
+  border-radius: 3px;
+  width: 300px;
+  height: 330px;
+  margin: 10px 5px 5px 5px;
+}
+
+.card p {
+  border: 1px solid grey;
+  border-radius: 3px;
+  width: fit-content;
+  position: absolute;
+  margin:0;
+}
+
+.pics{
+  height:270px;
+  width: 65%;
+  margin-left: 50px;
+}
+
+.date{
+  font-size: small;
+  color:grey;
+}
+
+.price{
+  border: 1px solid grey;
+  border-radius: 3px;
+  width: fit-content;
+  margin:0;
+}

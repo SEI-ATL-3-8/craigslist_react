@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  border: 1px solid #000000;
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  grid-template-columns: 400px 400px 400px;
+  grid-gap: 20px;
+}
+
+.listing {
+  border: 1px solid #663399;
+  height: 400px;
+  width: 400px;
+  margin-left: 100px;
+}
+
+.listing, .price {
+  border: 1px solid #808080;
+}
+
+.title {
+  color: #0000ff;
+  font-size: 18px;
+}
+
+.date {
+  border: 1px solid #808080;
+  margin-left: 10px;
+}
+
+.bedroom {
+  margin-left: 10px;
+}
+
+.location {
+  margin-left: 10px;
+}
+
+.photo {
+  height: 200px;
+  width: 200px;
+}

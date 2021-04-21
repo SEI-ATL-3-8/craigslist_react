@@ -1,0 +1,76 @@
+.listingContainer {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+  grid-template-rows: 300px auto 300px; 
+  column-gap: 20px;
+  row-gap: 75px;
+  justify-content: center;
+}
+
+a {
+  font-size: 18px;
+}
+
+.imageSection {
+  display: flex;
+  width: 100%;
+  height: 50%;
+  margin: 0 auto;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+
+}
+
+img {
+  width: 100%;
+  object-fit: contain;
+  border-radius: 5px;
+}
+
+.price {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  position: absolute;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.infoSection {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.postedOn {
+  margin-left: 5px;
+}
+
+.price2 {
+  margin-left: 5px;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 1px;
+  background-color: lightgray;
+}
+
+.beds {
+  margin-left: 10px;
+}
+
+.location {
+  margin-left: 10px;
+}
+
+.sqft {
+  margin-left: 10px;
+}
+
+.listing {
+  border-radius: 5px;
+  width: 100%;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+}

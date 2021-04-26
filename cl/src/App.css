@@ -1,0 +1,37 @@
+.container{
+  display: flex;
+  width: 800px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card{
+  margin: 1em;
+  border: solid 1px black;
+  border-radius: 0.25em;
+  height: 200px;
+  width: 200px;
+  font-size: 0.75em;
+
+}
+
+.image-container{
+  display: flex;
+  justify-content: center;
+}
+
+.price-box{
+  position: absolute;
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+
+.posted-on {
+  font-size: 0.75em;
+  color: gray;
+}
+
+.inline-price-box{
+  border: 1px solid gray;
+  border-radius: 5px;
+}
